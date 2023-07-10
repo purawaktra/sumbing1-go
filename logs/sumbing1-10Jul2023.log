@@ -1,0 +1,19 @@
+{"time":"2023-07-10 09:33:09","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-10 09:33:09","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-10 09:33:09","message":"App Address = localhost:7778"}
+{"time":"2023-07-10 16:01:37","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-10 16:01:37","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-10 16:01:37","message":"App Address = localhost:7778"}
+{"level":"warn","function":"CheckBasicAuth","message":"Basic auth not set","time":"2023-07-10 16:01:52"}
+{"level":"info","time":"2023-07-10 16:02:02","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-10 16:02:02","message":"=== New Request ==="}
+{"time":"2023-07-10 16:03:43","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-10 16:03:43","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-10 16:03:43","message":"App Address = localhost:7778"}
+{"level":"warn","function":"CheckBasicAuth","message":"Basic auth not set","time":"2023-07-10 16:04:03"}
+{"level":"info","time":"2023-07-10 16:04:11","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-10 16:04:11","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-10 16:09:39","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-10 16:09:39","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-10 16:10:20","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-10 16:10:20","message":"=== New Request ==="}

@@ -1,0 +1,15 @@
+{
+  "app": {
+    "name": "sumbing1",
+    "host": "localhost",
+    "port": "7778",
+    "environment": "development",
+    "log": {
+      "level": "0"
+    },
+    "auth": {
+      "username": "SBG1",
+      "password": "ADMSBG1"
+    }
+  }
+}
