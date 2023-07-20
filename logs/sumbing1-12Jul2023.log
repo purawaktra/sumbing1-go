@@ -1,0 +1,40 @@
+{"time":"2023-07-12 00:09:10","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 00:09:10","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 00:09:10","message":"App Address = localhost:7778"}
+{"level":"info","time":"2023-07-12 00:09:54","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-12 00:09:54","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-12 00:10:39","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-12 00:10:39","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-12 00:11:54","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-12 00:11:54","message":"=== New Request ==="}
+{"time":"2023-07-12 12:06:22","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 12:06:22","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 12:06:22","message":"App Address = localhost:7778"}
+{"level":"fatal","error":"open ../swagger.json: The system cannot find the file specified.","function":"init","message":"","time":"2023-07-12 12:06:22"}
+{"time":"2023-07-12 13:24:32","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 13:24:32","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 13:24:32","message":"App Address = localhost:7778"}
+{"level":"fatal","error":"open ../swagger.json: The system cannot find the file specified.","function":"init","message":"","time":"2023-07-12 13:24:32"}
+{"time":"2023-07-12 13:26:44","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 13:26:44","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 13:26:44","message":"App Address = localhost:7778"}
+{"time":"2023-07-12 13:27:24","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 13:27:24","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 13:27:24","message":"App Address = localhost:7778"}
+{"time":"2023-07-12 13:30:13","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 13:30:13","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 13:30:13","message":"App Address = localhost:7778"}
+{"time":"2023-07-12 13:31:02","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 13:31:02","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 13:31:02","message":"App Address = localhost:7778"}
+{"time":"2023-07-12 14:14:38","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 14:14:38","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 14:14:38","message":"App Address = localhost:7778"}
+{"time":"2023-07-12 14:15:03","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-12 14:15:03","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-12 14:15:03","message":"App Address = localhost:7778"}
+{"level":"info","time":"2023-07-12 14:15:32","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-12 14:15:32","message":"=== New Request ==="}
+{"level":"error","error":"json: cannot unmarshal string into Go value of type map[string]interface {}","function":"ConvertJSONtoBSON","message":"","time":"2023-07-12 14:15:32"}
+{"level":"info","time":"2023-07-12 14:15:43","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-12 14:15:43","message":"=== New Request ==="}

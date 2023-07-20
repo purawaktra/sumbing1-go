@@ -20,6 +20,7 @@ func CreateSumbing1Router(engine *gin.Engine, rh Sumbing1RequestHandler) Sumbing
 func (r Sumbing1Router) Init(path string) {
 	pathGroup := r.engine.Group(path, utils.CheckBasicAuth)
 	pathGroup.POST("/convert/json-to-bson", r.rh.ConvertJSONtoBSON)
-	pathGroup.POST("/convert/file-to-bson")
+	pathGroup.POST("/convert/image-to-bson-with-account-id", r.rh.ConvertImagetoBSONWithAccountId)
 	pathGroup.POST("/convert/bson-to-json", r.rh.ConvertBSONtoJSON)
+	pathGroup.GET("/generate/uuid", r.rh.GenerateGoogleUUID)
 }

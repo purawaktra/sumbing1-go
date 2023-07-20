@@ -1,0 +1,36 @@
+{"time":"2023-07-14 09:51:21","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-14 09:51:21","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-14 09:51:21","message":"App Address = localhost:7778"}
+{"level":"warn","function":"CheckBasicAuth","message":"Basic auth not set","time":"2023-07-14 09:51:33"}
+{"level":"info","time":"2023-07-14 09:51:41","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 09:51:41","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-14 09:51:44","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 09:51:44","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-14 09:51:44","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 09:51:44","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-14 09:51:45","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 09:51:45","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-14 09:51:45","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 09:51:45","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-14 09:51:45","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 09:51:45","message":"=== New Request ==="}
+{"time":"2023-07-14 10:40:19","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-14 10:40:19","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-14 10:40:19","message":"App Address = localhost:7778"}
+{"level":"warn","function":"CheckBasicAuth","message":"Basic auth not set","time":"2023-07-14 10:40:32"}
+{"level":"info","time":"2023-07-14 10:40:40","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 10:40:40","message":"=== New Request ==="}
+{"level":"info","time":"2023-07-14 10:57:10","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 10:57:10","message":"=== New Request ==="}
+{"time":"2023-07-14 13:57:11","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-14 13:57:11","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-14 13:57:11","message":"App Address = localhost:7778"}
+{"level":"warn","function":"CheckBasicAuth","message":"Basic auth not set","time":"2023-07-14 13:57:29"}
+{"level":"info","time":"2023-07-14 13:57:38","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 13:57:38","message":"=== New Request ==="}
+{"time":"2023-07-14 16:02:27","message":"============= SUMBING1 RUNTIME STARTED ============="}
+{"time":"2023-07-14 16:02:27","message":"============= SUMBING1 ENGINE STARTING ============="}
+{"time":"2023-07-14 16:02:27","message":"App Address = localhost:7778"}
+{"level":"warn","function":"CheckBasicAuth","message":"Basic auth not set","time":"2023-07-14 16:20:34"}
+{"level":"info","time":"2023-07-14 16:20:41","message":"Basic auth successful"}
+{"level":"info","time":"2023-07-14 16:20:41","message":"=== New Request ==="}

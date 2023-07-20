@@ -16,6 +16,10 @@
     {
       "name": "utils",
       "description": "Dead simple utils that can be useful to interact with microservices"
+    },
+    {
+      "name": "generate",
+      "description": "Utils that can be useful to, guess, generate"
     }
   ],
   "paths": {
@@ -62,6 +66,122 @@
           }
         }
       }
+    },
+    "/convert/bson-to-json": {
+      "post": {
+        "tags": [
+          "utils"
+        ],
+        "summary": "Convert body bson to json",
+        "description": "Vice versa and self-explanatory",
+        "operationId": "ConvertBSONtoJSON",
+        "security": [
+          {"basicAuth":  []}
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/xClientId"
+          }
+        ],
+        "requestBody": {
+          "$ref": "#/components/requestBodies/BSON"
+        },
+        "responses": {
+          "200": {
+            "description": "ConvertBSONtoJSON success, with given request",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Check request, body not comply with request rules",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "401": {
+            "description": "You are not permitted!"
+          },
+          "500": {
+            "description": "General error, system cannot tell you what wrongs",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/convert/image-to-bson-with-account-id": {
+      "post": {
+        "tags": [
+          "utils"
+        ],
+        "summary": "Convert Image on body req to bson with additional account id from param",
+        "description": "Don't ask me again",
+        "operationId": "ConvertImagetoBSONWithAccountId",
+        "security": [
+          {"basicAuth":  []}
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/xClientId"
+          },
+          {
+            "$ref": "#/components/parameters/AccountId"
+          },
+          {
+            "$ref": "#/components/parameters/RequestId"
+          }
+
+        ],
+        "requestBody": {
+          "$ref": "#/components/requestBodies/Image"
+        },
+        "responses": {
+          "200": {
+            "description": "ConvertBSONtoJSON success, with given request",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Check request, body not comply with request rules",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "401": {
+            "description": "You are not permitted!"
+          },
+          "500": {
+            "description": "General error, system cannot tell you what wrongs",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/generate/uuid": {
+      "get": {
+        "tags": [
+          "generate"
+        ],
+        "summary": "Easy return of Google UUID generator",
+        "description": "Don't ask me again",
+        "operationId": "GenerateUUID",
+        "security": [
+          {"basicAuth":  []}
+        ],
+        "responses": {
+          "200": {
+            "description": "GenerateUUID success, with given no request",
+            "content": {
+              "text/plain": {}
+            }
+          }
+        }
+      }
     }
   },
   "servers": [
@@ -77,6 +197,28 @@
           "application/json": {
             "schema": {
               "type": "string"
+            }
+          }
+        }
+      },
+      "BSON": {
+        "required": true,
+        "content": {
+          "application/bson": {
+            "schema": {
+              "type": "string",
+              "format": "binary"
+            }
+          }
+        }
+      },
+      "Image": {
+        "required": true,
+        "content": {
+          "image/png": {
+            "schema": {
+              "type": "string",
+              "format": "binary"
             }
           }
         }
@@ -98,6 +240,27 @@
           "type": "string",
           "maxLength": 32,
           "pattern": "[A-Za-z0-9]{32}"
+        }
+      },
+      "AccountId": {
+        "name": "account_id",
+        "in": "header",
+        "description": "Account id that accompanies image data",
+        "required": true,
+        "schema": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "RequestId": {
+        "name": "request_id",
+        "in": "header",
+        "description": "Request id that accompanies, what else request",
+        "required": true,
+        "schema": {
+          "type": "string",
+          "maxLength": 36,
+          "pattern": "[A-Za-z0-9]{8}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{12}"
         }
       }
     }
