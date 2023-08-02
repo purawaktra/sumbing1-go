@@ -2,7 +2,7 @@
   "app": {
     "name": "sumbing1",
     "host": "localhost",
-    "port": "7778",
+    "port": "7776",
     "environment": "development",
     "log": {
       "level": "0"
